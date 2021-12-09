@@ -1,0 +1,94 @@
+*{box-sizing: border-box;}
+
+	body{font-family: Arial, Helvetica, sans-serif;}
+
+		header{padding: 30px;
+		 text-align: center;
+		 width: 100%;
+		 font-size: 30px;
+		 background-color:#6A707E;
+		 color: white;}
+
+	   nav{float: left;
+		width: 100%;
+		height: auto;
+	    overflow: hidden;
+        background-color: #6A707E;}
+		
+
+		 p{text-align: justify;
+		 	color: white;}
+
+
+		 	li{list-style: none;}
+
+		 	footer{background-color: #6A707E;
+		 		padding: 10px;
+		 		width: 100%;
+		 		height: auto;
+	       		text-align: center;
+	       		color: white;}
+
+
+                		.pelota{background-color:#6A707E;
+                			display: block;
+                			float: left;
+                			padding: 15px;
+                			width: 19%;
+                			height: 600px;
+                			margin: 5px;
+                			text-align: center;
+                		}
+                		.camiseta{background-color:#6A707E;
+                			display: block;
+                			float: left;
+                			padding: 15px;
+                			width: 19%;
+                			height: 600px;
+                			margin: 5px;
+                			text-align: center;
+                		}
+
+                		.jineta{background-color:#6A707E;
+                			display: block;
+                			float: left;
+                			padding: 15px;
+                			width: 19%;
+                			height: 600px;
+                			margin: 5px;
+                			text-align: center;
+                		}
+                		.medias{background-color:#6A707E;
+                			display: block;
+                			float: left;
+                			padding: 15px;
+                			width: 19%;
+                			height: 600px;
+                			margin: 5px;
+                			text-align: center;
+                		}
+                			.peto{background-color:#6A707E;
+                			display: block;
+                			float: left;
+                			padding: 15px;
+                			width: 19%;
+                			height: 600px;
+                			margin: 5px;
+                			text-align: center;
+                		}
+
+                		.formulario{background-color: black;
+                			float: left;
+                			width: 100%;
+                			height: auto;
+                			padding: 15px;
+                			color: white;
+                			text-align: center;}
+
+
+                		@media (max-width: 800px)
+	       			{nav,article,body,header,p,ul,li,form,div,img{
+	       				width: 100%;
+	       				height: auto;
+	       			}}
+                		
