@@ -10,11 +10,14 @@
 
 	table{margin: 0 auto;}
 
-	nav{float: center;
+	nav{background-color:#6A707E ;
+		float: center;
 		width: 100%;
 		height: 100px;
 		background: none;
-		padding: 25px;}
+		padding: 25px;
+	    overflow: hidden;
+        background-color: #6A707E}
 
 		 ul{list-style-type: none;
                 margin: 0;
